@@ -1,0 +1,9 @@
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    float: left;
+}
+
+p::first-line{
+    color: green;
+}
