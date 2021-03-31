@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" value="CLICK HERE">
+<button>sas</button>
+
+<script>
+    let input = document.querySelector("input")
+    input.onblur = inputBlur;
+    input.onfocus = inputFocus;
+
+    function inputBlur() {
+        input.value = 'Focus has been lost';
+    }
+
+    function inputFocus() {
+        input.value = 'Focus is here';
+    }
+
+    let bt = document.querySelector("button")
+    bt.onmouseover = function () {
+        bt.style.backgroundColor = "red"
+    }
+    bt.onmouseout = function () {
+        bt.style.backgroundColor = "black"
+    }
+    console.log(bt)
+    console.log(random(255))
+
+</script>
+</body>
+</html>
+

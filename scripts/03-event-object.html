@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            background-color: red;
+            height: 100px;
+            width: 25%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<button>btn</button>
+<button>btn</button>
+
+<script>
+    for (let i = 1; i <= 16; i++) {
+        const d = document.createElement("div")
+        document.body.appendChild(d)
+    }
+    const bt = document.querySelector("button")
+    bt.addEventListener("click", bgChange)
+    console.log(bt)
+
+    function random(number) {
+        return Math.floor(Math.random() * (number + 1))
+    }
+
+    function bgChange(e) {
+        const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        e.target.style.backgroundColor = rndCol;
+    }
+
+    function bgChange2() {
+        const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        return rndCol;
+    }
+
+    const divs = document.querySelectorAll("div");
+    console.log(divs)
+    for (let i = 0; i < divs.length; i++) {
+        divs[i].onclick = function (e) {
+            e.target.style.backgroundColor = bgChange2()
+        }
+    }
+
+
+</script>
+</body>
+</html>

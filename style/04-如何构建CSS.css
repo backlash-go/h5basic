@@ -1,0 +1,27 @@
+p {
+    font-size: 12px;
+    width: 230px;
+    height: 200px;
+    background-color: red;
+    color: pink;
+    border: solid;
+    background-image: url("../images/james.jpeg");
+}
+
+
+.outer {
+    border: 5px solid black;
+}
+
+.box {
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+}
+
+@media only screen and  (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}

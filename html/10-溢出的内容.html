@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>溢出的内容</title>
+    <style>
+        .box {
+            border: 1px solid #333333;
+            width: 200px;
+            height: 100px;
+            overflow: scroll;
+        }
+
+        .box1 {
+            border: 5px solid darkblue;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="box">This box has a height and a width. This means that if there is too much content to be displayed within the assigned height, there will be an overflow situation. If overflow is set to hidden then any overflow will not be visible.</div>
+
+<p>This content is outside of the box.</p>
+<div class="box1">
+    I have a percentage width.
+
+</div>
+</body>
+</html>

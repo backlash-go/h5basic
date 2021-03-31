@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    let bar = 111;
+
+    function do_something() {
+        console.log(bar); // 111
+        console.log(bar); // 111
+
+    }
+
+    console.log(bar)
+    do_something()
+    console.log(typeof bar)
+
+    function a() {
+        for (var i=0;i<5;i++){
+            console.log(i)
+        }
+        console.log(i)
+    }
+
+    a()
+
+    let f1 = function(){
+        alert("aa")
+    }
+    f1()
+</script>
+</body>
+</html>

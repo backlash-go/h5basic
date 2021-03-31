@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="" />
+    <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/01html-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/01html-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/01style-basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/01style-basic.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +33,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/learning-area/learning-area" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qEQAasbwIrMjcjf5YSJuqYVQbJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,13 +52,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/style" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/style" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -68,7 +77,8 @@
       <workItem from="1616642127879" duration="732000" />
       <workItem from="1616643508130" duration="327000" />
       <workItem from="1616643874585" duration="1919000" />
-      <workItem from="1616651699514" duration="8483000" />
+      <workItem from="1616651699514" duration="34969000" />
+      <workItem from="1617156950832" duration="1439000" />
     </task>
     <servers />
   </component>
@@ -85,8 +95,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617010706526">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1617010706526" />
     <state x="598" y="377" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1616659730016">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
