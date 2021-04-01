@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/05-else-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/06-关于比较运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/07-三元运算符示例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/demo/01-一个简单的日历.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/01html-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/01html-basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/01style-basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/01style-basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/04-preventDefault.html" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/04-preventDefault.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qEQAasbwIrMjcjf5YSJuqYVQbJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +82,7 @@
       <workItem from="1616643508130" duration="327000" />
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
-      <workItem from="1617156950832" duration="1439000" />
+      <workItem from="1617156950832" duration="7554000" />
     </task>
     <servers />
   </component>

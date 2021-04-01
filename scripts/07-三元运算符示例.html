@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三元运算符示例</title>
+</head>
+<body>
+<labe for="theme">Select theme:</labe>
+<select name="" id="theme">
+    <option value="white">white</option>
+    <option value="black">black</option>
+</select>
+<h1>This is my website</h1>
+
+
+<script>
+    const seletct = document.querySelector("select");
+    const html = document.querySelector("html");
+
+    function update(bgColor, textColor) {
+        html.style.backgroundColor = bgColor;
+        html.style.color = textColor;
+    }
+
+    seletct.onchange = function () {
+        (seletct.value === "black") ? update('black', 'white') : update('white', 'black');
+    }
+</script>
+</body>
+</html>

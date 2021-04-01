@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="weather">Select the weather type today: </label>
+<select id="weather">
+    <option value="">--Make a choice--</option>
+    <option value="sunny">sunny</option>
+    <option value="rainy">rainy</option>
+    <option value="snowing">snowing</option>
+    <option value="overcast">overcast</option>
+</select>
+<p></p>
+<script>
+    const s = document.querySelector("select");
+    const para = document.querySelector("p");
+    s.addEventListener("change", setWeather);
+
+    function setWeather() {
+        let choice = s.value;
+        console.log(s.value)
+        if (choice === 'sunny') {
+            para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
+        } else if (choice === 'rainy') {
+            para.textContent = 'Rain is falling outside; take a rain coat and a brolly, and don\'t stay out for too long.';
+        } else if (choice === 'snowing') {
+            para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+        } else if (choice === 'overcast') {
+            para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+        } else {
+            para.textContent = '';
+        }
+    }
+
+
+</script>
+</body>
+</html>
