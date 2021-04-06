@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/05-else-if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/06-关于比较运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/07-三元运算符示例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/demo/01-一个简单的日历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/浮动案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/01-给浮动元素的父元素增加一个固定的高度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/02-clear属性清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/03-overflow-hidden清除浮动.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/04-preventDefault.html" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/04-preventDefault.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1qEQAasbwIrMjcjf5YSJuqYVQbJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,18 +63,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/浮动/清除浮动三种方法" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/style" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/浮动" />
       <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/浮动/清除浮动三种方法" />
+      <recent name="$PROJECT_DIR$/style" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +91,7 @@
       <workItem from="1616643508130" duration="327000" />
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
-      <workItem from="1617156950832" duration="7554000" />
+      <workItem from="1617156950832" duration="18004000" />
     </task>
     <servers />
   </component>
@@ -110,10 +119,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="598" y="377" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1920.1057@0.23.1920.1057" timestamp="1616659730016" />
-    <state x="362" y="229" key="SettingsEditor" timestamp="1616659757561">
+    <state x="422" y="211" key="SettingsEditor" timestamp="1617686078306">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="362" y="229" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1616659757561" />
+    <state x="422" y="211" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1617686078306" />
     <state x="606" y="243" width="598" height="735" key="find.popup" timestamp="1616666518802">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

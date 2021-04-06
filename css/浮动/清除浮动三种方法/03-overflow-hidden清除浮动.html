@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        ul {
+            list-style: none;
+
+        }
+       ul li {
+           float: left;
+           border: 1px solid red;
+       }
+
+    </style>
+</head>
+<body>
+<ul style="overflow: hidden">
+    <li>栏目管理1</li>
+    <li>栏目管理2</li>
+    <li>栏目管理3</li>
+    <li>栏目管理4</li>
+    <li>栏目管理5</li>
+    <li>栏目管理6</li>
+    <li>栏目管理7</li>
+    <li>栏目管理8</li>
+    <li>栏目管理9</li>
+    <li>栏目管理10</li>
+</ul>
+</body>
+</html>
+
+<!--
+只要有浮动 那么就必须有清除浮动
+
+为什么要清除浮动
+因为经过浮动的元素, 它会影响到它下面的元素的排版布局
+还有就是浮动元素的父元素没有将浮动元素包裹着
+
+
+清除浮动有以下三种方法
+
+1 给浮动元素的父元素设置一个固定的高度   不建议使用
+2 clear属性
+  clear: left; 清除左浮动
+  clear: right; 清除右浮动
+  clear: both; 两者都清除
+  用在最后一个浮动元素的下面建立一个空白div
+3 overflow: hidden; 将溢出的部分隐藏 也可以用来清除浮动 （因为无法在UL 下面放置DIV）
+-->

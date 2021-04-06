@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        .box {
+            width: 600px;
+            margin: auto;
+            border: 1px solid #000;
+        }
+
+        .div1 {
+            width: 100px;
+            height: 100px;
+            background-color: #1FE200;
+            /*增加浮动属性*/
+            float: left;
+        }
+
+        .div2 {
+            width: 120px;
+            height: 100px;
+            background-color: red;
+            float: left;
+        }
+
+        .div3 {
+            width: 100px;
+            height: 100px;
+            background-color: #2D5BA3;
+            float: right;
+        }
+
+        .s1 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<!--div.box>div.div$*3-->
+<!--ul>li{$}*4-->
+<div class="box">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <span class="s1"></span>
+</div>
+</body>
+</html>
+
+<!--
+浮动的特性  浮动元素脱离标准文档流, 不再占用空间了
+浮动元素可以理解为 "飘"
+浮动元素层级比标准文档流元素层级高, 会将标准文档流中的元素给压盖住
+浮动元素它会向左或者向右进行浮动（移动）  移动父元素的边框
+浮动元素遇到上一个浮动元素就停止了浮动
+将行内元素进行浮动以后, 那么这个行内元素它就会变成块级元素
+浮动元素进行浮动之后  其父元素不会包裹着浮动元素 三个DIV 设置为float
+
+-->

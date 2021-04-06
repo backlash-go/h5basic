@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        .box {
+            width: 600px;
+            margin: auto;
+            border: 1px solid #000;
+        }
+
+        .div1 {
+            width: 100px;
+            height: 100px;
+            background-color: #1FE200;
+            /*增加浮动属性*/
+            float: left;
+        }
+
+        .div2 {
+            width: 120px;
+            height: 100px;
+            background-color: red;
+            float: left;
+        }
+
+        .div3 {
+            width: 100px;
+            height: 100px;
+            background-color: #2D5BA3;
+            float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--div.box>div.div$*3-->
+<!--ul>li{$}*4-->
+<div class="box">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+</div>
+<h2>清除浮动</h2>
+</body>
+</html>
+
+<!--
+只要有浮动 那么就必须有清除浮动
+
+为什么要清除浮动
+因为经过浮动的元素, 它会影响到它下面的元素的排版布局
+还有就是浮动元素的父元素没有将浮动元素包裹着
+
+
+清除浮动有以下三种方法
+
+1 给浮动元素的父元素设置一个固定的高度
+-->
