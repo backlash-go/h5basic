@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定定位</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+<p></p>
+<img src="../../../images/james.jpeg" alt="james">
+</body>
+</html>
+<!--
+相对于浏览器窗口进行定位, 不管页面如何滚动, 固定元素的位置不会改变
+
+特点：
+固定元素脱离标准文档流
+固定定位元素的层级 比标准文档流元素层级高 会压盖标准流文档的元素
+固定定位元素它不再占用空间,不随着浏览器滚动
+
+-->

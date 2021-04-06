@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/浮动/浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/浮动/浮动案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/01-给浮动元素的父元素增加一个固定的高度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/02-clear属性清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/浮动/清除浮动三种方法/03-overflow-hidden清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/定位/固定定位/01-实现返回顶部的固定按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/定位/固定定位/固定定位.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +87,7 @@
       <workItem from="1616643508130" duration="327000" />
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
-      <workItem from="1617156950832" duration="18004000" />
+      <workItem from="1617156950832" duration="20135000" />
     </task>
     <servers />
   </component>
