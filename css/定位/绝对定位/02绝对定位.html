@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 600px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            /*设置一个相对定位*/
+            position: relative;
+        }
+        .box div {
+            width: 100px;
+            height: 100px;
+        }
+        .div1 {
+            background-color: #f00;
+        }
+        .div2 {
+            background-color: #0f0;
+            /*设置定位属性*/
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+        .div3 {
+            background-color: #00f;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+</div>
+</body>
+</html>
+
+<!--绝对定位
+什么是绝对定位？
+   绝对定位元素是相对于 祖先定位元素 来进行定位
+
+什么是祖先定位元素
+   查找父元素是否设置了定位 一直往上一级找 如果都没有 则相对于浏览器窗口来进行定位
+
+
+特点
+脱离标准文档流
+不再占用空间 压盖住标准文档流元素
+-->

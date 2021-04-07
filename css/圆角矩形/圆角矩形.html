@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆角矩形</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #f00;
+        }
+        div:nth-child(1){
+            /*左上角 右上角  右下 左下角---顺时针*/
+            border-radius: 10px 20px 30px 40px;
+        }
+        div:nth-child(2){
+            /*左上角 右上角  右下 左下角---顺时针*/
+            border-radius: 40px;
+        }
+        div:nth-child(3){
+            /*左上角 右上角  右下 左下角---顺时针*/
+            border-radius: 40px;
+        }
+        div:nth-child(4){
+             /* 变圆形
+             元素长度 宽度要相等
+             border-radius长度的一半
+             左上角 右上角  右下 左下角---顺时针*/
+             border-radius: 50px;
+         }
+        div:nth-child(5){
+            /* 变椭圆形状
+            元素长度 宽度要相等
+            border-radius长度的一半
+            左上角 右上角  右下 左下角---顺时针*/
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        div:nth-child(6){
+            /* 实现上半部分是圆形
+            元素长度 宽度要相等
+            border-radius长度的一半
+            左上角 右上角  右下 左下角---顺时针*/
+            width: 100px;
+            height: 50px;
+            background-color: #97DB9A;
+            border-radius: 50px 50px 0px 0px;
+        }
+        div:nth-child(7){
+            /* 实现左办圆形
+            元素长度 宽度要相等
+            border-radius长度的一半
+            左上角 右上角  右下 左下角---顺时针*/
+            width: 50px;
+            height: 100px;
+            background-color: #97DB9A;
+            border-radius: 50px 0px 0px 50px;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>

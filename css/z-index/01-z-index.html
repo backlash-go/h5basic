@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+        .div1 {
+            background-color: #f00;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            /*z-index默认为0*/
+            z-index:  13;
+
+        }
+        /*div2 压着 div1*/
+        .div2 {
+            background-color: #00f;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            z-index:  12;
+
+
+        }
+    </style>
+</head>
+<body>
+<div class="div1"></div>
+<div class="div2"></div>
+</body>
+</html>

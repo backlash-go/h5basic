@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 600px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            padding-left: 20px;
+        }
+        .box div {
+            width: 100px;
+            height: 100px;
+        }
+        .div1 {
+            background-color: #f00;
+        }
+        .div2 {
+            background-color: #0f0;
+            position: relative;
+            /*left: 100px;*/
+            top: -100px;
+        }
+        .div3 {
+            background-color: #00f;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+</div>
+</body>
+</html>
+
+<!--相对定位元素
+没有脱离标准文档流
+相对定位元素 如果没有设置定位坐标，那么相对元素它还在原来的位置
+设了定位坐标以后 会在老家留个坑
+相对定位元素会将标准流中的元素压盖住
+坐标值可以是负数
+相对定位元素主要用来配合绝对定位元素来使用
+-->

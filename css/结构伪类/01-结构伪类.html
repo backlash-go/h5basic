@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结构伪类</title>
+    <style>
+        /*.box ul  li:first-child{*/
+        /*    !*匹配第一个孩子*!*/
+        /*    color: #f00;*/
+        /*    width: 300px;*/
+        /*    height: 30px;*/
+        /*    line-height: 30px;*/
+        /*    border: 1px solid #000;*/
+        /*}*/
+
+        /*.box ul  li:last-child{*/
+        /*    !*匹配最后孩子*!*/
+        /*    color: #f00;*/
+        /*    width: 300px;*/
+        /*    height: 30px;*/
+        /*    line-height: 30px;*/
+        /*    border: 1px solid #000;*/
+        /*}*/
+
+        /*.box ul  li:nth-child(2n+1){*/
+        /*    !*匹配第N个孩子*!*/
+        /*    color: #f00;*/
+        /*    width: 300px;*/
+        /*    height: 30px;*/
+        /*    line-height: 30px;*/
+        /*    border: 1px solid #000;*/
+        /*}*/
+        div ul  li:only-child{
+            /*匹配第N个孩子*/
+            color: #f00;
+            width: 300px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+        <li>白马王子</li>
+    </ul>
+</div>
+
+<div>
+    <ul>
+        <li>有且只有一个</li>
+    </ul>
+</div>
+
+</body>
+</html>
+
+<!--
+E:first-child
+E:last-child
+E:nth-child(n)
+E:nth-child(2n)  E:nth-child(even) 匹配偶数
+E:nth-child(2n+1) E:nth-child(odd)  匹配奇数
+E:only-child      匹配有且只有一个孩子
+-->
