@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+<script>
+    let user = "john";
+    
+    function f() {
+        user = "xxv";
+        alert(user)
+    }
+
+    f()
+    console.log(user)
+
+
+    function showMessage(from, text) {
+
+        from = '*' + from + '*'; // 让 "from" 看起来更优雅
+
+        alert( from + ': ' + text );
+    }
+    showMessage("anny")
+</script>
+</body>
+</html>

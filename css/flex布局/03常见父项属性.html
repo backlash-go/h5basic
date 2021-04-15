@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        div {
+            display: flex;
+            width: 80%;
+            height: 400px;
+            background-color: red;
+            /*!*flex-direction: row-reverse;*!  3 2 1*/
+            justify-content: space-between;
+            /*    1 2 3*/
+        }
+
+        div span {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+</div>
+</body>
+</html>
+
+<!--
+1 flex flexible box 弹性布局
+2 任何一个容器都可以制定为flex布局-
+3 父盒子设为弹性布局以后 子元素的 float clear vertical-align属性将失效
+4 采用flex布局的元素 称为flex容器 所有子元素自动成为 flex项目 简称 item 子容器可以横向 纵向排列
+总结 FLEX布局原理 就是给父盒子添加FLEX属性，来控制盒子的位置和排列方式
+
+
+常见父项属性
+
+flex-direction  :设置主轴方向 默认主轴 row    param: row row-reverse column column-reverse
+justify-content
+flex-wrap
+align-content
+align-items
+flex-flow
+
+默认主轴 水平向右 X
+   侧轴 垂直向下 Y
+-->

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>async</title>
+</head>
+<body>
+<script>
+    let hello = async function() { return "Hesallo" };
+    console.log(hello())
+    hello().then(value => {console.log(value)})
+</script>
+</body>
+</html>
+
+<!--
+value => console.log(value)
+
+
+function(value) { return console.log(vauele) }
+-->

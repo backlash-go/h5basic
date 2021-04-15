@@ -20,21 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/z-index/01-z-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/z-index/02-z-index顶部的导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/圆角矩形/圆角矩形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/定位/固定定位/02-实现顶部的导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/定位/相对定位/01-相对定位元素案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/定位/相对定位/相对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/定位/绝对定位/02绝对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/定位/绝对定位/绝对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/文本阴影/文本阴影.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/盒子阴影/盒子阴影.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/结构伪类/01-结构伪类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/结构伪类/02-实现变色表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/z-index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/文本阴影.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/01-try.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/02-FLEX原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/03常见父项属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/04justify-conten.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/05-flex-wrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/06-align-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/07-align-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/08-flex-flow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/flex布局/常见的子项属性/01-flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/function/01-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/let-const/let-const.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/module/01-module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/module/01-module/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/module/01-module/sayHi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/string/strings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flex常见父项属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/01-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/01-promise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/02-async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/异步JS/01-callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhr/01-xhr-request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhr/file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-area/learning-area" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/01-js引入.html" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/01-js引入.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +86,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/z-index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/flex布局" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -84,11 +98,11 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/flex布局" />
       <recent name="$PROJECT_DIR$/css/z-index" />
       <recent name="$PROJECT_DIR$/css/定位/绝对定位" />
       <recent name="$PROJECT_DIR$/css/定位/固定定位" />
       <recent name="$PROJECT_DIR$/css/浮动/清除浮动三种方法" />
-      <recent name="$PROJECT_DIR$/style" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,7 +117,7 @@
       <workItem from="1616643508130" duration="327000" />
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
-      <workItem from="1617156950832" duration="32347000" />
+      <workItem from="1617156950832" duration="61552000" />
     </task>
     <servers />
   </component>
@@ -126,18 +140,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617765525229">
+    <state x="744" y="373" key="#Notifications" timestamp="1618469513476">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1617765525229" />
+    <state x="744" y="373" key="#Notifications/0.23.1920.1057@0.23.1920.1057" timestamp="1618469513476" />
+    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617861491801">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1207" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1617861491801" />
     <state x="598" y="377" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1616659730016">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="598" y="377" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1920.1057@0.23.1920.1057" timestamp="1616659730016" />
-    <state x="644" y="173" key="SettingsEditor" timestamp="1617791407262">
+    <state x="644" y="173" key="SettingsEditor" timestamp="1617934958123">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="644" y="173" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1617791407262" />
+    <state x="644" y="173" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1617934958123" />
     <state x="606" y="243" width="598" height="735" key="find.popup" timestamp="1616666518802">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

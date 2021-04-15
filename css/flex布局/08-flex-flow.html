@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>align-item</title>
+    <style>
+    div {
+        display: flex;
+        width: 600px;
+        height: 400px;
+        background-color: red;
+        flex-flow: row wrap;
+
+
+    }
+
+    div span {
+        width: 170px;
+        height: 100px;
+        background-color: peru;
+        margin: 10px;
+
+    }
+    </style>
+</head>
+<body>
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+
+
+</div>
+</body>
+</html>
+
+<!--
+1 flex flexible box 弹性布局
+2 任何一个容器都可以制定为flex布局-
+3 父盒子设为弹性布局以后 子元素的 float clear vertical-align属性将失效
+4 采用flex布局的元素 称为flex容器 所有子元素自动成为 flex项目 简称 item 子容器可以横向 纵向排列
+总结 FLEX布局原理 就是给父盒子添加FLEX属性，来控制盒子的位置和排列方式
+
+
+常见父项属性
+
+flex-direction  :设置主轴方向 默认主轴 row (x)     param: row row-reverse column column-reverse
+justify-content :设置主轴上的子元素排列方式
+param: flex-start
+       flex-end
+       center     再主轴居中对齐 如果是Y则垂直居中
+       space-around 平分剩余空间
+       space-between 先两边贴边 再平分剩余空间 (重要)
+
+flex-wrap   :设置子元素是否换行 -- 因为项目默认不换行排在一条线 插入多个元素 超多宽度 都不会换行而是减少元素的宽度
+
+param: no-wrap 默认不换行
+       wrap
+
+align-content :
+*只能用于子项出现换行情况, 在单行下没有效果的，设置侧轴的子元素的排列方式（）
+param:
+        flex-start 默认值从侧轴的头部开始排列
+        flex-end
+        center
+        space-around
+        space-between
+        stretch    设置子项元素高度平分父元素的高度
+
+
+align-items : 设置侧轴上的子元素排列
+param: flex-start
+       flex-end
+       center   侧轴居中对齐
+       stretch  沿着侧轴拉伸
+
+
+flex-flow:
+
+flex-flow: row wrap;
+等价于
+flex-direction: row;
+flex-wrap: wrap
+
+
+常见子项属性:
+flex 定义子项目的分配的剩余空间 FLEX来表示份数。
+
+align-self
+order
+
+
+-->

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>promise</title>
+</head>
+<body>
+<p>This is my page</p>
+
+<script>
+    let promise = fetch("../images/james.jpeg").then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+
+        } else {
+            return response.blob();
+        }
+    }).then(myBlob => {
+        let objectURL = URL.createObjectURL(myBlob);
+        let image = document.createElement('img');
+        image.src = objectURL;
+        document.body.appendChild(image);
+    }).catch(e => {
+        console.log('There has been a problem with your fetch operation: ' + e.message);
+    })
+
+</script>
+</body>
+</html>

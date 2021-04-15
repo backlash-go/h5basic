@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let const</title>
+</head>
+<body>
+<script>
+    // {
+    //     let a = 10;
+    //     var b = 20;
+    // }
+    // console.log(b)
+    //
+    // console.log(a)
+    var a = [];
+    for (var i = 0; i < 10; i++) {
+        a[i] = function () {
+            console.log(i);
+        };
+    }
+    a[6]();
+    a[0]();
+    for (let i = 0; i < 3; i++) {
+        console.log(i);
+
+    }
+    // // var 的情况
+    // console.log(foo); // 输出undefined
+    // var foo = 2;
+    //
+    // // let 的情况
+    // console.log(bar); // 报错ReferenceError
+    // let bar = 2;
+    var tmp = 123;
+
+    if (true) {
+        // tmp = 'abc'; // ReferenceError
+        // let tmp = 'abc';
+        console.log(tmp)
+    }
+
+    function bar(x = 2, y = x) {
+        return [x,y]
+    }
+    console.log(bar())
+    let [aa, bb, cc] = [1, 2, 3];
+    console.log(aa);
+
+</script>
+</body>
+</html>
