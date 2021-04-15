@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        div {
+            display: flex;
+            width: 100%;
+            height: 350px;
+            background-color: red;
+            /*align-items: flex-end;*/
+        /*    只想让三号盒子下来*/
+
+        }
+
+        div span {
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            margin-right: 5px;
+
+        }
+        div span:nth-child(2){
+            order: -1;
+        }
+        div span:nth-child(3){
+            align-self: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+<div><span>1</span><span>2</span><span>3</span></div>
+</body>
+</html>
+
+
+<!--
+常见子项属性:
+flex 定义子项目的分配的剩余空间 FLEX来表示份数。
+
+align-self
+控制子项自己在侧轴上的排列方式
+可以覆盖align-item属性
+默认是指为AUTO 表示继承父元素的align-items属性  如果没有父元素 则等同于STRETCH
+
+order 定义项目的排列顺序 数值越小排列越靠前 默认为0
+-->
