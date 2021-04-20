@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script src="../../cdn/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <!--    v-if 指令将根据表达式 seen 的值的真假来插入/移除 <p> 元素。-->
+    <p v-if="seen">{{msg}}</p>
+    <a v-bind:href="url">V-BIND 百度一下</a>
+    <a v-on:click="doSomething" href="www.baidu.com">v-on</a>
+    <button @click="doSomething">按钮2</button>
+
+    <a :[attributename]="url">动态绑定参数V-BIND</a>
+    <input type="text" v-on:[event]="doSomething">
+
+
+    <form method="POST" action="/projects" v-on:submit.prevent="onSubmit">
+        <p>First name: <input type="text" name="fname" /></p>
+        <p>Last name: <input type="text" name="lname" /></p>
+        <input type="submit" value="Submit" />
+    </form>
+
+
+</div>
+<script>
+
+    /*    对动态参数的值的约束
+        对动态参数表达式的约束
+        <!--
+    在 DOM 中使用模板时这段代码会被转换为 `v-bind:[someattr]`。
+    除非在实例中有一个名为“someattr”的 property，否则代码不会工作。
+    -->
+        <a v-bind:[someAttr]="value"> ... </a>  */
+
+
+    /*
+
+     */
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                msg: "xixianbin",
+                seen: true,
+                url: "http://www.baidu.com",
+                attributename: "href",
+                event: "focus"
+            },
+            methods: {
+                doSomething: function () {
+                    alert("doSomething")
+                    return
+                },
+                onSubmit: function () {
+                    alert("阻止表单提交")
+                }
+            }
+        }
+    )
+</script>
+</body>
+</html>
+
+

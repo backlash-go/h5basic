@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象语法</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <div class="static" v-bind:class="{ active: isActive }"></div>
+    <div v-bind:class="classObject"></div>
+
+    <div v-bind:class="classObject2"></div>
+
+
+</div>
+
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            isActive: true,
+            hasError: false,
+            classObject: {
+                active: true,
+                'text-danger': false
+            }
+        },
+        computed:{
+            classObject2: function () {
+                return {
+                    active: this.isActive,
+
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

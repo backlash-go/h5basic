@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script src="../../cdn/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    {{ msg }}
+    <span v-once>{{ msg }}</span>
+</div>
+<script>
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                msg: "xixianbi1n11"
+            },
+            method:{
+
+            }
+        }
+    )
+</script>
+</body>
+</html>

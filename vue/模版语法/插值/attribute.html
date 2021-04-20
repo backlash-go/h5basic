@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script src="../../cdn/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    {{ msg }}
+    <button v-bind:disabled="isButtonDisabled">按钮1</button>
+</div>
+<script>
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                msg: "xixianbi1n11",
+                isButtonDisabled: true,
+                dynamicId: "app"
+            },
+            method: {}
+        }
+    )
+</script>
+</body>
+</html>

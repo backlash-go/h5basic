@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script src="../../cdn/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <span>    {{ href }}</span>
+    <br>
+    <span v-html="href">    {{ href }}</span>
+</div>
+<script>
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                msg: "xixianbi1n11",
+                href: '<a href="https://www.baidu.com"> 百度一下！</a>'
+            },
+            method: {}
+        }
+    )
+</script>
+</body>
+</html>

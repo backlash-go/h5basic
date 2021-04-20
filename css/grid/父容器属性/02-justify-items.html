@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid-template-*</title>
+    <style>
+        .main {
+            display: grid;
+            width: 600px;
+            height: 600px;
+            border: 10px solid skyblue;
+
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: repeat(4,100px);
+            /*row-gap: 50px;*/
+            /*column-gap: 20px;*/
+            gap: 50px 20px;
+            /*设置单元格内容水平方向对齐方式*/
+            justify-items: center;
+            /*垂直*/
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+
+        }
+        item {
+            font-size: 50px;
+            background-color: #E91E63;
+            color: white;
+        }
+        .item-1 {
+            background-color: #5E2612;
+        }
+        .item-2 {
+            background-color: saddlebrown;
+
+        }
+        .item-3 {
+            background-color: firebrick;
+        }
+        .item-4 {
+            background-color: #ff33cc;
+        }
+        .item-5 {
+            background-color: #ffffcc;
+        }
+        .item-6 {
+            background-color: aliceblue;
+        }
+        .item-7 {
+            background-color: gainsboro;
+        }
+        .item-8 {
+            background-color: #5E2612;
+        }
+        .item-9 {
+            background-color: lawngreen;
+        }
+        .item-10 {
+            background-color: firebrick;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+    <div class="item item-3">3</div>
+    <div class="item item-4">4</div>
+    <div class="item item-5">5</div>
+    <div class="item item-6">6</div>
+    <div class="item item-7">7</div>
+    <div class="item item-8">8</div>
+    <div class="item item-9">9</div>
+    <div class="item item-10">10</div>
+</div>
+</body>
+</html>

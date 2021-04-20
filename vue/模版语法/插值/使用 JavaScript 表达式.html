@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script src="../../cdn/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    {{ number + 1 }}
+    {{ ok ? 'yess' : 'nos'}}
+    {{ msg.split('').reverse().join('!!') }}
+    <button v-bind:disabled="isButtonDisabled">按钮1</button>
+    <div v-bind:id="'list-' + id"></div>
+
+</div>
+<script>
+    <!--  语句 流程控制都不会生效  *个绑定都只能包含单个表达式-->
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                msg: "xixianbi1n11",
+                isButtonDisabled: true,
+                dynamicId: "app",
+                number: 1,
+                ok: true,
+                id: "5555"
+            },
+            method: {}
+        }
+    )
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象语法</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<ul id="example-1">
+    <li v-for="(item, index) of items" :key="item.message">
+        {{ item.message }} {{index}} - {{ parentMessage }}
+    </li>
+    <div>
+        <span v-for="n in 10">{{ n }} </span>
+    </div>
+</ul>
+
+
+<ul id="v-for-object" class="demo">
+    <li v-for="(value, name,index) of object">
+        {{ value }} {{name}} {{index}}
+    </li>
+</ul>
+
+
+<script>
+    var example1 = new Vue({
+        el: '#example-1',
+        data: {
+            items: [
+                {message: 'Foo'},
+                {message: 'Bar'}
+            ]
+        }
+    })
+
+
+    new Vue({
+        el: '#v-for-object',
+        data: {
+            object: {
+                title: 'How to do lists in Vue',
+                author: 'Jane Doe',
+                publishedAt: '2016-04-10'
+            }
+        }
+    })
+</script>
+</body>
+</html>
