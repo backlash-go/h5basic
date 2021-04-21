@@ -20,56 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bom/01-bom-test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/02-screen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/03-location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/navigator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/01-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/父容器属性/01-grid-template-*.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/父容器属性/01-grid-template-areas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/父容器属性/02-grid-auto-flow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/父容器属性/02-justify-items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/父容器属性/03-grid-auto-row-column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid/项目属性/01-grid-column-*.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/node-require/第一种方式/another.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/node-require/第一种方式/car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-router/起步/01-html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/cdn/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/列表渲染/v-for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/声明式渲染/01-message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/声明式渲染/templateCreate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/声明式渲染/vue实例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/模版语法/指令/参数-动态参数-修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/模版语法/插值/attribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/模版语法/插值/使用 JavaScript 表达式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/模版语法/插值/原始HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/模版语法/插值/文本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/绑定 HTML Class/对象语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/计算属性/基础例子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/布局/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/BaseInputText.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/TodoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/TodoListItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/单文件组件/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/01-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/03-常用Prop 向子组件传递数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/04-单根元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/05-监听子组件事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/06-监听子组件使用事件抛出一个值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/07-在组件上使用 v-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/08-通过插槽分发内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/09-动态组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/10-全局指令.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/组件基础/通过 Prop 向子组件传递数据.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/模版语法/插值/原始HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/模版语法/插值/原始HTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,7 +82,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/列表渲染" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/组件基础" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -115,13 +90,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/组件基础" />
       <recent name="$PROJECT_DIR$/vue/列表渲染" />
       <recent name="$PROJECT_DIR$/vue/模版语法/指令" />
       <recent name="$PROJECT_DIR$/vue/模版语法/插值" />
       <recent name="$PROJECT_DIR$/vue/模版语法" />
-      <recent name="$PROJECT_DIR$/css/grid/项目属性" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/单文件组件/components" />
       <recent name="$PROJECT_DIR$/vue/模版语法/插值" />
       <recent name="$PROJECT_DIR$/css/浮动" />
       <recent name="$PROJECT_DIR$/images" />
@@ -140,7 +116,7 @@
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
       <workItem from="1617156950832" duration="75767000" />
-      <workItem from="1618809149685" duration="21131000" />
+      <workItem from="1618809149685" duration="32252000" />
     </task>
     <servers />
   </component>
