@@ -20,31 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/布局/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/BaseInputText.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/TodoList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/components/TodoListItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/单文件组件/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/01-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/03-常用Prop 向子组件传递数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/04-单根元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/05-监听子组件事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/06-监听子组件使用事件抛出一个值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/07-在组件上使用 v-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/08-通过插槽分发内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/09-动态组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/10-全局指令.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/组件基础/通过 Prop 向子组件传递数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vuex/demo/01-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vuex/demo/vuex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/Btn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/simple-sync.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/模版语法/插值/原始HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/模版语法/插值/原始HTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +59,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -116,7 +120,7 @@
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
       <workItem from="1617156950832" duration="75767000" />
-      <workItem from="1618809149685" duration="32252000" />
+      <workItem from="1618809149685" duration="41169000" />
     </task>
     <servers />
   </component>
