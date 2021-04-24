@@ -20,28 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aac8e84-f955-4d7d-bffa-8820fb0404a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vuex/demo/01-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vuex/demo/vuex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/getter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/store/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/Btn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuex-study/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/styles/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-demo/src/views/login/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning-area/learning-area/javascript/asynchronous/introducing/async-sync.html" afterDir="false" />
@@ -59,8 +53,9 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
+        <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -87,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/组件基础" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1616643874585" duration="1919000" />
       <workItem from="1616651699514" duration="34969000" />
       <workItem from="1617156950832" duration="75767000" />
-      <workItem from="1618809149685" duration="41169000" />
+      <workItem from="1618809149685" duration="49456000" />
     </task>
     <servers />
   </component>
@@ -155,6 +150,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="598" y="377" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1920.1057@0.23.1920.1057" timestamp="1616659730016" />
+    <state x="833" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619244909184">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="833" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1619244909184" />
     <state x="644" y="173" key="SettingsEditor" timestamp="1618888405660">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
