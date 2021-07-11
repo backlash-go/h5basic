@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="example">
+    <anchored-heading :level="1">Hello world  11
+    </anchored-heading>
+</div>
+
+<script>
+    Vue.component('anchored-heading', {
+        render: function (createElement) {
+            console.log(this.$slots)
+
+            console.log(this.$slots.default)
+
+            return createElement(
+                'h' + this.level,   // 标签名称
+                this.$slots.default // 子节点数组
+            )
+        },
+        props: {
+            level: {
+                type: Number,
+                required: true
+            }
+        }
+    })
+
+    new Vue({
+        el: '#example',
+        data: {
+            message: "Hello",
+        },
+    })
+</script>
+</body>
+</html>
