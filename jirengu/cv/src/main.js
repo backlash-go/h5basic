@@ -54,7 +54,6 @@ let setUp = () => {
         if (str.length === 0 || n >= str.length) {
             return;
         }
-
         if (str[n] === "\n") {
             str2 += "<br>";
         } else if (str[n] === " ") {
@@ -74,3 +73,12 @@ let setUp = () => {
 };
 
 setUp();
+
+
+
+
+
+
+
+
+
