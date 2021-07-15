@@ -10,9 +10,6 @@ window.dom = {
         node.parentNode.insertBefore(node2, node.nextSibling);
     },
     before(node, node2) {
-        console.log("11111")
-
-        console.log(node.parentNode)
         node.parentNode.insertBefore(node2, node)
     },
     append(parent, node) {
@@ -20,6 +17,6 @@ window.dom = {
     },
     wrap(node, parent) {
         dom.before(node, parent)
-        // dom.append(parent, node)
+        dom.append(parent, node)
     }
 }
