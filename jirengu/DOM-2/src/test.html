@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="parentElement">
+    <span id="childElement">foo bar</span>
+</div>
+
+<script>
+    // 创建要插入的节点
+    var newNode = document.createElement("span");
+    newNode.textContent = "I am a newNode"
+
+    // 获得父节点的引用
+    var parentDiv = document.getElementById("childElement").parentNode;
+    console.log(parentDiv)
+
+    var sp2 = document.getElementById("childElement");
+
+    parentDiv.insertBefore(newNode, sp2);
+
+
+</script>
+</body>
+</html>
