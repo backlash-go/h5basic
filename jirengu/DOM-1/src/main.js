@@ -23,7 +23,19 @@ const title = dom.attr(test, "title");
 console.log(`title is ${title}`);
 
 
-dom.text(test, "我是大家的小宝贝");
+// dom.text(test, "我是大家的小宝贝");
 
 dom.style(test, {border: '1px solid red', color: "blue"});
 dom.style(test, "border");
+
+
+dom.class.add(test, "red")
+
+let fn = () => {
+    console.log("点击了")
+}
+dom.on(test,'click',fn)
+
+console.log(test.childNodes)
+console.log(Array.from(test.children))
+

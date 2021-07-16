@@ -75,8 +75,65 @@ window.dom = {
                 node.style[key] = name[key];
             }
         }
+    },
+    class: {
+        add(node, className) {
+            node.classList.add(className)
+        },
+        remove(node, className) {
+            node.classList.remove(className)
+        },
+        has(node, className) {
+            return node.classList.contains(className)
+        }
+    },
+    on(node, event, fn) {
+        node.addEventListener(event, fn)
+    },
+    off(node, event, fn) {
+        node.removeEventListener(event, fn)
+    },
+    find(selector, scope) {
+        return (scope || document).querySelectorAll(selector)
+    },
+    parent(node) {
+        return node.parentNode
+    },
+    children(node) {
+        return node.children
+    },
+    siblings(node) {
+        return Array.from(node.children).filter(n => n !== node)
+    },
+    next(node) {
+        let x = node.nextSibling
+        while (x && x.nodeType === 3) {
+            x = x.nextSibling
+        }
+        return x
+    },
+    previous(node) {
+        let x = node.previousNode
+        while (x && x.nodeType === 3) {
+            x = x.previousNode
+        }
+        return x
+    },
 
-
+    each(nodeList, fn) {
+        for (let i = 0; i < nodeList.length; i++) {
+            fn.call(null, nodeList[i])
+        }
+    },
+    index(node) {
+        const list = dom.children(node.parentNode)
+        for (let i = 0; i < list.length; i++) {
+            if (node === list[i]) {
+                return i
+            }
+        }
     }
 
-};
+}
+
+;
