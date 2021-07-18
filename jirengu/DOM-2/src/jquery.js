@@ -19,6 +19,7 @@ window.$ = window.jQuery = function (selectorOrArray) {
 
 jQuery.prototype = {
     jQuery: true,
+    constructor: jQuery,
     addClass(className) {
         for (let i = 0; i < this.elements.length; i++) {
             this.elements[i].classList.add(className);
@@ -28,7 +29,7 @@ jQuery.prototype = {
     },
     find(selector) {
         let array = [];
-        for (let i = 0; i < elements.length; i++) {
+        for (let i = 0; i < this.elements.length; i++) {
             const elements2 = Array.from(elements[i].querySelectorAll(selector));
             array = array.concat(elements2);
         }
@@ -39,8 +40,8 @@ jQuery.prototype = {
         return this.oldApi;
     },
     each(fn) {
-        for (let i = 0; i < elements.length; i++) {
-            fn.call(null, elements[i], i);
+        for (let i = 0; i < this.elements.length; i++) {
+            fn.call(null, this.elements[i], i);
         }
         return this;
     },
