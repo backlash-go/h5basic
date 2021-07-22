@@ -33,18 +33,49 @@ var server = http.createServer(function (request, response) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    <link rel="stylesheet" href="./style.css">-->
     <title>Title</title>
     </head>
 <body>
-<h1>我是席</h1>
+<h1>我是席</h1> <h2 id="myName"></h2>
+<button id="getXML">getxml</button>
+<button id="getJSON">getJSON</button>
+
 <script src="main.js"></script>
 </body>
 </html>`);
         response.end();
     } else if (path === '/main.js') {
         response.statusCode = 200;
-        response.setHeader('Content-Type', 'text/css;charset=utf-8');
+        response.setHeader('Content-Type', 'text/javascript;charset=utf-8');
         response.write(fs.readFileSync('./main.js'));
+        response.end();
+    } else if (path === '/style.css') {
+        response.statusCode = 200;
+        response.setHeader('Content-Type', 'text/css;charset=utf-8');
+        response.write(fs.readFileSync('./style.css'));
+        response.end();
+    } else if (path === '/2.js') {
+        response.statusCode = 200;
+        response.setHeader('Content-Type', 'text/javascript;charset=utf-8');
+        response.write(fs.readFileSync('./2.js'));
+        response.end();
+    }
+    else if (path === '/2.html') {
+        response.statusCode = 200;
+        response.setHeader('Content-Type', 'text/html;charset=utf-8');
+        response.write(fs.readFileSync('./2.html'));
+        response.end();
+    } else if (path === '/2.xml') {
+        response.statusCode = 200;
+        response.setHeader('Content-Type', 'text/xml;charset=utf-8');
+        response.write(fs.readFileSync('./2.xml'));
+        response.end();
+    }
+    else if (path === '/2.json') {
+        response.statusCode = 200;
+        response.setHeader('Content-Type', 'application/json;charset=utf-8');
+        response.write(fs.readFileSync('./2.json'));
         response.end();
     } else {
         response.statusCode = 404;

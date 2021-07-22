@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul id="test">
+    <li>
+        <p>
+            <span>1</span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span>2</span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span>3</span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span>4</span>
+        </p>
+    </li>
+</ul>
+<div id="d">
+    <span>文字</span>
+</div>
+
+<script>
+    on('click', '#test', 'li', ()=>{
+        console.log('用户点击了li')
+    })
+
+    function on(eventType, element, selector, fn) {
+        if (!(element instanceof Element)) {
+            element = document.querySelector(element)
+        }
+
+        element.addEventListener(eventType, (e)=>{
+            let target = e.target
+            // 如果匹配到了selector就跳出循环
+            console.log(target)
+            while(!target.matches(selector)){
+                if (target === element){
+                    //已经找到了父元素，说明还没找到，就设置为null
+                    target = null
+                    break
+                }
+                target = target.parentNode
+            }
+            console.dir(target)
+
+            // 找到了target, 就调用函数
+            fn.call(target, e)
+
+        })
+    }
+
+
+
+    let d1 = document.querySelector('#d')
+    console.log(d1)
+
+    d.addEventListener('click', (e) => {
+        let t = e.target
+
+        if ("#d" instanceof Element) {
+            console.log(" #d is instanceof Element")
+
+        }
+        if (d1 === e.currentTarget) {
+            console.log("d1 === e.currentTarget")
+        }
+
+        console.log(t.matches('span'))
+    })
+</script>
+</body>
+</html>
