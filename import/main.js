@@ -1,6 +1,7 @@
-import {sayBye,sayHi,obj} from "./say.js";
+// import {sayBye,sayHi,obj} from "./say.js";
+import * as xxb from './say.js'
 
-sayBye("xx")
-sayHi("ss")
+xxb.sayBye("xx")
+xxb.sayHi("ss")
 
-console.log(obj)
+console.log(xxb.obj)
