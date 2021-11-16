@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .clearfix:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    ul, ol {
+      list-style: none;
+    }
+
+    ul > li {
+      float: left;
+      padding: 4px 0.5em;
+      line-height: 32px;
+    }
+
+
+    .logo > img {
+      height: 28px;
+      vertical-align: middle;
+      margin-top: 4px;
+
+    }
+
+    .logo {
+      display: inline-block;
+      float: left;
+      margin-left: 10px;
+
+    }
+
+    .nav {
+
+      float: left;
+    }
+
+    header {
+      background: orange;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .content {
+      outline: 1px solid red;
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .image {
+      outline: 1px solid green;
+      width: 191px;
+      height: 200px;
+      float: left;
+      margin-right: 12px;
+    }
+
+    .image-list {
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+    }
+
+    .image-list > .x {
+      margin-right: -12px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+<header class="clearfix">
+  <div class="logo clearfix">
+    <img src="https://inews.gtimg.com/newsapp_bt/0/9372335208/641" alt="">
+  </div>
+  <ul class="clearfix nav">
+    <li>首页</li>
+    <li>课程</li>
+    <li>关于</li>
+    <li>优惠</li>
+  </ul>
+</header>
+
+
+<div class="content">
+  <aside>一行字有六个字</aside>
+  <main>主要内容</main>
+  <div class="ad">广告</div>
+</div>
+
+<div class="image-list clearfix">
+  <div class="x clearfix">
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
