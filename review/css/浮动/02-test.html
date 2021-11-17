@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Title</title>
+  <style>
+    .parents {
+      border: 1px solid red;
+      height: 100px;
+    }
+
+    .child {
+      float: right;
+      height: 20px;
+      width: 60px;
+      border: 1px solid black;
+
+    }
+
+    .clearfix:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+  </style>
+</head>
+<body>
+
+
+<div class="parents clearfix">
+  <div class="child">11</div>
+</div>
+
+</body>
+</html>
